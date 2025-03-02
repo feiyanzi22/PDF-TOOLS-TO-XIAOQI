@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF 工具箱</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎使用工具箱！</h1>
+        <ul id="options">
+            <li><button onclick="handleOption(1)">PDF 合并（支持文件夹和自定义顺序）</button></li>
+            <li><button onclick="handleOption(2)">PDF 拆分</button></li>
+            <li><button onclick="handleOption(3)">PDF 加密</button></li>
+            <li><button onclick="handleOption(4)">PDF 解密</button></li>
+            <li><button onclick="handleOption(5)">PDF 加水印</button></li>
+            <li><button onclick="handleOption(6)">PDF 转 Word</button></li>
+            <li><button onclick="handleOption(7)">PDF 转 Markdown</button></li>
+            <li><button onclick="handleOption(8)">PDF 转图片</button></li>
+            <li><button onclick="handleOption(9)">图片转 PDF</button></li>
+            <li><button onclick="handleOption(10)">退出</button></li>
+        </ul>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
